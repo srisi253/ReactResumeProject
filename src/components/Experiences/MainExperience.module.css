@@ -1,0 +1,42 @@
+.experienceList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experienceItem {
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  color: #008080;
+  border: 2px solid #008080;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  width: 580px;
+  height: 80px;
+  text-decoration: none;
+}
+
+.experienceItem:hover {
+  background-color: #f0f0f0;
+}
+
+.experienceContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+
+@media (max-width: 767px) {
+  .experienceItem {
+    width: 250px;
+    font-size: 0.75rem;
+    padding: 5px;
+  }
+}

@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+
+}
+
+p {
+    padding: 0rem 6rem;
+    margin: 0.4rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 0rem 2rem 0rem 0.7rem;
+    }
+    p {
+        padding: 0rem 2rem;
+    }
+}

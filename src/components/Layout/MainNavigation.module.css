@@ -1,0 +1,94 @@
+.header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #008080;
+}
+
+.name {
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  margin-left: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #88dfdf;
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+  color: #e6fcfc;
+}
+
+.personal {
+  width: 3.5rem;
+  max-height: 3.5rem;
+  border-radius: 2rem;
+}
+.personalMobile{
+  display: none;
+}
+
+.nav a:hover {
+  color: #e6fcfc;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: #008080;
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0.4rem;
+  }
+
+  .nav.open ul {
+    display: flex;
+  }
+
+  .menuIcon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .bar {
+    width: 1.9rem;
+    height: 0.19rem;
+    background-color: white;
+    margin: 0.25rem 0;
+  }
+
+  .personal {
+    display: none;
+  }
+
+  .personalMobile {
+    display: inline-flex;
+    width: 3rem;
+    max-height: 3rem;
+    border-radius: 2rem;
+    margin-left: 1rem;
+  }
+}

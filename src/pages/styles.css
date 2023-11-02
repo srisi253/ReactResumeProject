@@ -1,0 +1,79 @@
+/* EducationDetails.js */
+
+.imageContainerStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.25rem;
+  }
+
+  .titleStyleEducation {
+    text-align: center;
+    color: #008080;
+    padding: 1rem;
+  }
+
+  .mobileStylesEducation {
+    font-size: 1rem;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 1.25rem;
+    padding: 2% 5% 5% 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+
+  .mobileTitleStyles {
+    font-size: 1.2rem;
+  }
+
+
+/* ExperienceDetails.js */
+
+  .titleStyleExperience {
+    text-align: center;
+    color: #008080;
+    padding: 1rem;
+  }
+
+  .imageContainerStyleExperience {
+    text-align: center;
+    margin-top: 3.13rem;
+  }
+
+  .mobileStylesExperience {
+    font-size: 1rem;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 1.25rem;
+    padding: 0% 5% 3% 5%;
+    text-align: justify;
+  }
+
+  .imageSizeExperience {
+    width: 25rem;
+    height: 12.5rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3.13rem;
+    margin-bottom: 20px;
+  }
+
+  /* NotFound.js */
+
+.notFoundStyles {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .titleStyles {
+    font-size: 24px;
+    color: #ff0000;
+  }
+
+  .messageStyles {
+    font-size: 18px;
+    color: #333;
+  }

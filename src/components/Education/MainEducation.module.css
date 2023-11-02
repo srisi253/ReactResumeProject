@@ -1,0 +1,42 @@
+.educationList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .educationItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #008080;
+    border: 2px solid #008080;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 580px;
+    height: 80px;
+    text-decoration: none;
+  }
+
+  .educationItem:hover {
+    background-color: #f0f0f0;
+  }
+
+  .educationContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+
+  @media (max-width: 767px) {
+    .educationItem {
+      width: 250px;
+      font-size: 0.75rem;
+      padding: 5px;
+    }
+  }

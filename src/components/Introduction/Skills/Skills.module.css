@@ -1,0 +1,29 @@
+h2 {
+  color: #008080;
+  font-size: 1.2rem;
+}
+
+.container {
+  display: flex;
+  max-width: 75rem;
+  margin: 0 auto;
+  }
+
+div div ul {
+  padding: 0;
+}
+
+div div ul li {
+  display: flex;
+  margin-bottom: 0.3rem;
+}
+
+@media (max-width: 768px) {
+.container {
+  flex-direction: column;
+}
+
+div ul li{
+  padding: 0.15rem 2.5rem;
+}
+}
